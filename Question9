@@ -1,0 +1,14 @@
+class Solution(object):
+    def isPalindrome(self, x):
+        """
+        :type x: int
+        :rtype: bool
+        """
+        stringform=str(x)
+        length=len(stringform)-1
+        for x in range(length):
+            if stringform[x]== stringform[length-x]:
+                pass
+            else:
+                return False
+        return True
