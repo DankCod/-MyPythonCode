@@ -4,6 +4,7 @@ class Solution(object):
         :type x: int
         :rtype: bool
         """
+        """Covert given integer to string and check from last digit is same as first digit and so on"""
         stringform=str(x)
         length=len(stringform)-1
         for x in range(length):
